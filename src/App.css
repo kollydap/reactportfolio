@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+html{
+	font-size: 10px;
+
+}
+/* unvisited link */
+a:link {
+    color: #777777;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #777777;
+  }
+  
+  /* mouse over link */
+
+  
+  /* selected link */
+  a:active {
+    color: #777777;
+  }

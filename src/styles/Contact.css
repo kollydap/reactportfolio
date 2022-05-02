@@ -1,0 +1,93 @@
+.contact{
+    padding:3rem 3rem;
+    margin: 3rem 7rem;
+    box-shadow: 0px 0px 1.8rem 0px rgb(0 0 0 / 5%);   
+}
+div >.MuiSvgIcon-root{
+    font-size: 5rem;
+}   
+.contactMe {
+    background-color:#fe4b68; 
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+.contact > h3{
+    margin: 1rem;
+    padding: 1.5rem;
+
+} 
+input{
+    margin: 1rem;
+    padding: 1.5rem;
+    outline: none;
+    border:1px solid #f1f1f1;
+    margin-left: 1rem;
+    
+}
+
+.msgbody{
+    width: 100%;
+    max-width: 100%;
+    
+    max-height: 17.5rem;
+}
+
+form > button{
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 2.5rem;
+    border-radius: 0.5rem;
+    line-height: 3.8rem;
+    background-color:#fe4b68;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    border: 2px solid #fe4b68;
+}
+.touch{
+    text-align: center;
+     padding:3rem 3rem;
+    margin: 3rem 3rem;
+    
+}
+.touch > div{
+    display: inline-block;
+    padding:5rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 1.8rem 0px rgb(0 0 0 / 5%);   
+
+
+}
+.contactMe > .MuiSvgIcon-root{
+    color: white;
+    margin: 0.5rem 1rem;
+    
+}
+@media (max-width:600px) {
+    .contact{
+        padding: 1rem ;
+        margin:1.6rem 0rem;
+    }
+    input{
+        width:100%;
+        display: block;
+    }
+    .msgbody{
+        height: 9rem;
+    }
+    div >.MuiSvgIcon-root{
+        font-size: 3rem;
+        
+    }
+    .touch > div{
+        padding:1rem;  
+        width:100%
+    
+    }
+}
